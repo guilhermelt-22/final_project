@@ -12,13 +12,16 @@
   - Machine Learning
   - Transformação de Dados 
   - Limpeza de Dados
+  - Plotagem de Gráficos
 
 # Tecnologias 
 
-  - Python
-    - Pandas
-    - Numpy
-    - Pycaret
+  - Python 3.8.13
+    - Pandas 1.4.4
+    - Numpy 1.20.3
+    - Pycaret 2.3.10
+    - Seaborn 0.11.2
+    - Matplotlib 3.5.3
 
 # Descrição do Projeto
 
@@ -38,7 +41,8 @@
   - Seleção das colunas 'Pre-Match PPG (Home)','Pre-Match PPG (Away)','home_team_goal_count','away_team_goal_count' e 'resultado', pois se mostraram as mais relevantes para a modelagem
   - Utilização do modelo KNN, pois após a tunagem se demonstrou o com melhor desempenho
   - Criação da pipeline no Pycaret 
-  - Transformação do modelo em arquivo .pkl para poder reutilizar em outras situações 
+  - Transformação do modelo em arquivo .pkl para poder reutilizar em outras situações
+  - Avaliação do modelo usando gráficos, com o foco para entender os casos em que houve erro 
 
 # Conclusão
   
